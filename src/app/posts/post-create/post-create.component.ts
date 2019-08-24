@@ -7,7 +7,8 @@ import { post } from 'selenium-webdriver/http';
   styleUrls: ['./post-create.component.css']
 })
 export class PostCreateComponent{
-  enteredValue = '';
+  enteredContent = '';
+  enteredTitle = '';
   newPost = 'NO CONTENT';
 
   onAddPost(postInput: HTMLTextAreaElement){
